@@ -1,0 +1,144 @@
+	<div class="map">
+		<iframe
+		  width="1925"
+		  height="526"
+		  frameborder="0" style="border:0"
+		  src="https://www.google.com/maps/embed/v1/place?key=<%= ENV['GOOGLE_API_KEY'] %>&q=10+Langley+Rd,+Newton,+MA+02459">
+		</iframe>
+	</div><!-- /.map -->
+
+	<div class="container">
+		<div class="container-body">
+			<section class="section section-contacts">
+				<div class="section-head">
+					<div class="row">
+						<div class="medium-12 large-12 columns">
+							<h2>Contact Us</h2>
+						</div><!-- /.medium-12 large-12 columns -->
+					</div><!-- /.row -->
+				</div><!-- /.section-head -->
+
+				<div class="section-body">
+					<div class="row">
+						<div class="medium-6 large-6 columns">
+							<div class="contacts">
+								<span>
+									<i class="ico ico-location"></i>
+					
+									Newton Centre
+								</span>
+					
+							<p>
+								10 Langley Road <br />
+								Suite 305 (3rd floor via elevator) <br />
+								Newton, MA 02459
+							</p>
+							</div><!-- /.contacts -->
+					
+							<div class="contacts">
+								<span>
+									<i class="ico ico-tel"></i>
+					
+									617-969-TALK (8255)
+								</span>
+							</div><!-- /.contacts -->
+						</div><!-- /.medium-6 large-6 columns -->
+						
+						<div class="medium-6 large-6 columns">
+							<div class="contacts contacts-alt">
+								<div class="contacts-avatar">
+									<img src="css/images/temp/brittany_bio.png" height="284" width="176" alt="" />
+								</div><!-- /.contacts-avatar -->
+					
+								<div class="contacts-content">
+									<h4>New Patient Coordinator</h4>
+									
+									<p>Brittany Doyle, M.S., CCC-SLP</p>
+					
+									<a href="mailto:brittany@teamchatterboxes.com" target='_blank'>
+										<i class="ico ico-mail"></i>
+					
+										brittany@teamchatterboxes.com
+									</a>
+					
+									<div class="socials">
+										<ul>
+											<li>
+												<a href="https://www.facebook.com/TeamChatterboxes?ref=br_rs" class="link-facebook" class="link-facebook">facebook</a>
+											</li>
+											
+											<li>
+												<a href="http://chatterboxesblog.blogspot.com/" class="link-rss">rss</a>
+											</li>
+											
+											<li>
+												<a href="https://www.linkedin.com/profile/view?id=299100497&authType=NAME_SEARCH&authToken=rT-r&locale=en_US&trk=tyah2&trkInfo=tarId%3A1411586032158%2Ctas%3ABritt%2Cidx%3A1-1-1" class="link-linkedin" class="link-linkedin">linkedin</a>
+											</li>
+										</ul>
+									</div><!-- /.socials -->
+								</div><!-- /.contacts-content -->
+							</div><!-- /.contacts contacts-alt -->
+						</div><!-- /.medium-6 large-6 columns -->
+					</div><!-- /.row -->
+
+					<div class="row">
+						<div class="medium-12 large-12 columns">
+							<div class="form-message">
+								<form action="/contact" method="post">
+									<header class="form-head">
+										<h3 id='contact-form-header'>Send Us a Message </h3>
+									</header><!-- /.form-head -->
+
+									<div class="form-body">
+										<div class="row">
+											<div class="medium-6 large-6 columns">
+												<div class="form-row">
+													<div class="form-controls">
+														<input type="text" class="field" id="name" placeholder="Name" name="name" required/>
+													</div><!-- /.form-controls -->
+												</div><!-- /.form-row -->
+												
+												<div class="form-row">
+													<div class="form-controls">
+														<textarea name="message" id="message" placeholder="Message" cols="30" rows="10" class="textarea" required></textarea>
+													</div><!-- /.form-controls -->
+												</div><!-- /.form-row -->
+											</div><!-- /.medium-6 large-6 columns -->
+											
+											<div class="medium-6 large-6 columns">
+												<div class="form-row">
+													<div class="form-controls">
+														<input type="email" class="field" id="mail3" placeholder="Email" name="email" required/>
+													</div><!-- /.form-controls -->
+												</div><!-- /.form-row -->
+												
+												<div class="form-row">
+													<div class="form-controls">
+														<input type="tel" class="field" id="mobile" placeholder="Phone" name="phone" required/>
+													</div><!-- /.form-controls -->
+												</div><!-- /.form-row -->
+
+												<div class="form-actions">
+													<input type="submit" value="Submit" class="form-btn" />
+												</div><!-- /.form-actions -->
+											</div><!-- /.medium-6 large-6 columns -->
+										</div><!-- /.row -->
+									</div><!-- /.form-body -->
+								</form>
+							</div><!-- /.form-message -->
+						</div><!-- /.medium-12 large-12 columns -->
+					</div><!-- /.row -->
+				</div><!-- /.section-body -->
+			</section><!-- /.section section-contacts -->
+		</div><!-- /.container-body -->
+
+		<div class="container-images">
+			<img src="css/images/cloud.png" class="cloud" alt="" width="163" height="107" />
+			
+			<img src="css/images/image-birds-small.png" class="birds-small" alt="" width="223" height="132" />
+			
+			<img src="css/images/image-birds-big.png" class="birds-large birds-large-alt" alt="" width="132" height="123" />
+			
+			<img src="css/images/cloud-small.png" class="cloud-small" height="79" width="121" alt="" />
+		</div><!-- /.container-images -->
+	</div><!-- /.container -->
